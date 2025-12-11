@@ -1,11 +1,17 @@
- /* h2 {
+  * {
+    padding: 0;
+    margin:0;
+    background-color: white;
+  }
+  
+  h2 {
    text-decoration: blue wavy overline;
 }
 
 p{
     color: rgb(103, 98, 98);
 }
-button{
+#3{
     color: purple;
     background-color: lightcoral;
 
@@ -32,7 +38,7 @@ h1, h2, h3 {
     color: green
 }
 
-button {
+#4 {
     background-color: yellow;
 }
 
@@ -60,8 +66,9 @@ h6 {
 
 #paragragh 2 {
     font-family: 'segoe ui';
-} */
-/* 
+} 
+
+
 * {
     text-weight: 900;
     font-family: sans-serif ;
@@ -71,16 +78,17 @@ h1 {
     text-align: center;
     text-transform: capitalize;
 
-} */
+} 
 
-/* #outer {
+ #outer {
     font-size:25px;
 }
 
 #inner {
     font-size:10px;
-} */
- button {
+} 
+
+#5 {
     text-align: center;
     height: 60px;
     width: 200px;
@@ -91,19 +99,43 @@ h1 {
     border-radius: 50px;
  
  } 
- div {
+ #2 {
     border: 2px solid brown;
  }
 
  #ulala, #mulala {
-  
+    
     height: 100px;
     width: 100px;
     background-color: rgb(62, 128, 124);
     border: 5px dotted rgb(102, 45, 45);
     border-radius: 50%;
+    padding-left: 20px;
+    margin-top: 50px;
    
+
+ } 
+
+ #1 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
  }
+ #navbar {
+    height: 60px;
+    background-color: rgb(142, 99, 142);
+ }
+  
+ #6 {
+    background-color: yellow;
+ }
+
+ #logo {
+    color: yellow;
+    font-size: 30px;
+ }
+
 
  
 

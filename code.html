@@ -218,10 +218,24 @@ flexbox property: flex diretion: row, row-reverse, column, column-reverse
 Flex item property: self-align: alignment for individual item
                     flex-grow: how much item will grow relative to other items when space is availabe
                     flex-shrink: how much item will shrink relative to other items when sapce is less
-
-
-
-
+<br/>
+media queries(helps creat responsive web): @media(width: 600px){
+   when width of div turns 600                          div{
+   background color turns red                               background-color: red;
+                                                           }
+                                                                }
+                                        
+                                         @media(min-width:600px){
+ it turns color green for all                            div{
+ the values above width 600px                               background-color: green;
+                                                             }
+                                                                   }                
+                                             
+                                         @media(min-width:200px) and (max-width:300px) {
+It turns color blue for all                              div{
+is between 200-300px.                                        background-color: blue;
+                                                            }
+                                                                                       }
 
                     
 

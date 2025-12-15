@@ -1,4 +1,4 @@
-  * {
+  /* * {
     padding: 0;
     margin:0;
     background-color: white;
@@ -134,8 +134,7 @@ h1 {
  #logo {
     color: yellow;
     font-size: 30px;
- } */
-
+ } 
  h6 {
     height:50px;
     weight:50px;
@@ -143,4 +142,48 @@ h1 {
     display: inline-block;
 
  } 
- 
+  */ 
+body {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+  #container {
+    height: 300px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;    
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+
+  }
+
+  #box1 {
+background-color: aqua;
+  }
+
+  #box2 {
+    background-color: pink;
+    height:200px;
+    flex-grow: 2;
+  }
+
+  #box3 {
+    background-color: darkkhaki;
+    height:75px;
+  }
+
+  #box4 {
+    background-color: indianred;
+  }
+
+  #box5 {
+    background-color: slateblue;
+  }

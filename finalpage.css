@@ -53,19 +53,19 @@
   width: 100px;
   border: 5px solid black;
   display: inline-block;
-} */
-/* 
+} 
+
 body {
     background-image: url("car.jpg");
     background-size:cover;
     background-repeat: no-repeat;
-} */
+} 
 
-/* 
+
 #contents {
   height: 820px;
-} */
-/* 
+} 
+
 #practice5 {
   height:100px;
   width:100px;
@@ -89,7 +89,56 @@ a {
 
 li {
   list-style-type: none;
-}
- */
+} */
 
- 
+/* #practice6 {
+  height: 200px;
+  width: 200px;
+  background-color: chocolate;
+}
+
+@media (max-width: 300px) {
+  div{
+    background-color: green;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 400px){
+  div{
+    background-color:pink;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 600px){
+  div{
+    background-color:red;
+  }
+}
+
+@media (min-width: 600px){
+  div{
+    background-color: blue;
+  }
+} */
+
+div {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  border: 2px solid black;
+  transition-property:all;
+  transition-duration: 6s;
+  /* transition-timing-function: steps(3); 
+  transition-delay: 2s; */
+}
+
+div:hover {
+  background-color: red;
+  font-size: 5px;
+}
+div:active {
+  background-color: pink;
+}
+
+
+

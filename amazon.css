@@ -91,7 +91,7 @@ color: white;
     border: 2px solid rgb(255, 165, 0);
 }
 
-/* design for box 4 */
+/* design for box 4 & 5 */
 .span {
     font-size: 0.7rem;
 }
@@ -99,4 +99,10 @@ color: white;
 .fontsiz {
     font-size: 0.85rem;
     font-weight: 700
+}
+
+/* design for box 6 */
+
+.nav-cart i {
+    font-size: 26px;
 }

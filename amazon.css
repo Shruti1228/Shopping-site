@@ -13,18 +13,19 @@
     align-items: center; /* used to center elements vertically  */
     justify-content: space-evenly; /*elements k bich me equal space lane k liye */
     }
-    
-.nav-logo {
-    height:40px;
-    width: 70px;
+
+/* .nav-logo {
+   height:30px;
+   width: 100px;
 }
 
 .logo {
     background-image: url("amazonlogo.png");
     background-size: cover;
-    height: 100%;
-    width: 100%;
-}
+    object-fit: contain;
+    height:30px;
+    width: auto;
+} */
 
 .white-border {
     border: 1.5px solid transparent;

@@ -7,25 +7,29 @@
 
 .navbar {
     height: 50px;
-    background-color: #0f1111;
+    background-color: black;
     color: white;
     display:flex; /* sare div's ek line me aa jaynge */
     align-items: center; /* used to center elements vertically  */
     justify-content: space-evenly; /*elements k bich me equal space lane k liye */
     }
 
-/* .nav-logo {
-   height:30px;
-   width: 100px;
+/* box-1, amazon logo */
+
+.nav-logo {
+    height:50px;
+    width:100px;
 }
 
 .logo {
-    background-image: url("amazonlogo.png");
+    background-image: url("/assests/amazonlogo.png");
     background-size: cover;
-    object-fit: contain;
-    height:30px;
-    width: auto;
-} */
+    height:44px;
+    width:100%;
+    margin-right: 80px;
+}
+
+/* for white border on hover */
 
 .white-border {
     border: 1.5px solid transparent;
@@ -35,7 +39,7 @@
     border: 1.5px solid white;
 }
 
-/* box2 */
+/* box2, location */
 
 .add-first {
 color: #cccccc;
@@ -55,7 +59,7 @@ color: white;
     font-size: 13px;
 }
 
-/* box3 design */
+/* box3, search button */
 
 .nav-search {
     display: flex;
@@ -116,4 +120,57 @@ color: white;
 .nav-cart {
     font-size: 0.85rem;
     font-weight: 7;
+}
+
+/* design for pannel */
+
+.pannel {
+    height:40px;
+    background-color: rgb(11, 55, 11);
+    display:flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pannel-option p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.pannel-option {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.pannel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* design for main body */
+
+.hero-section {
+  background-image: url("/assests/chrimst1.jpg");
+  background-size: cover;
+  height: 330px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+    width: 97%;
+    margin-top: 70px;
+}
+
+.hero-msg a {
+    color: #007185;
 }

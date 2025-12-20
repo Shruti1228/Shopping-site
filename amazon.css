@@ -168,9 +168,30 @@ color: white;
     align-items: center;
     font-size: 0.75rem;
     width: 97%;
-    margin-top: 70px;
+    margin-top: 260px;
 }
 
 .hero-msg a {
     color: #007185;
 }
+
+/* design for shopping option */
+
+.shop-option {
+    display: flex;
+    justify-content: space-evenly;;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.box {
+    border: 2px solid black;
+    height:300px;
+    width: 23%;
+    background-color:white;
+}
+
+/* .box-1-pic {
+    height: 300px;
+
+} */
+/* just for github push */

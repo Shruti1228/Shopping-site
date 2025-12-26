@@ -209,3 +209,27 @@ margin-right:10px;
 .box-content p {
     color: #007185;
 }
+
+/* design for footer */
+.foot-panel-1 {
+    background-color: rgb(23, 43, 23);
+    color: white;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel-2 {
+    background-color:rgb(11, 55, 11);
+    color: white;
+    height: 300px;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+.ul a {
+    display: block;
+}

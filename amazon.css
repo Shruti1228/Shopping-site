@@ -205,12 +205,14 @@ color: white;
   height: 500px; 
   position: relative;
   margin: auto;
+    overflow: hidden;
 }
 
 .slideshow-strips {
   display: flex;
   width: 700%; 
   animation: slide-animation 15s infinite;
+  
 }
 
 .slideshow-strips img {

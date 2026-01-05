@@ -188,6 +188,10 @@ color: white;
     font-size: 14px;
 }
 
+.slide-msg a:hover {
+  text-decoration: underline;
+}
+
 .pannel-option p.white-border:hover {
     border: 1.5px solid white;
 }
@@ -276,6 +280,7 @@ color: white;
 
 .shop-option {
     display: flex;
+     flex-wrap: wrap; /* allows boxes to wrap to next line if needed */
     justify-content: space-evenly;
     align-items: center;
     background-color: transparent; /* Changed to transparent to see the fade behind it */
@@ -283,6 +288,10 @@ color: white;
     z-index: 20;        /* Higher than the image z-index */
     margin-top: -120px; /* This pulls the boxes UP over the images */
     padding: 0 20px;
+}
+
+.shop-option p:hover {
+  text-decoration: underline;
 }
 
 .box {    
@@ -312,6 +321,54 @@ margin-right:5px;
 } 
 
 /* design for footer */
+.foot-sign-in {
+    background-color: white;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the button and text horizontally */
+    text-align: center;
+}
+
+.foot-sign-in hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #e7e7e7;
+    margin: 20px 0;
+}
+
+.See-personalised {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+}
+
+.See-personalised {
+    font-size: 13px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.foot-button:hover {
+    background: #e2b128;
+}
+
+.new-customer {
+    font-size: 11px;
+}
+
+.new-customer a {
+    color: #007185;
+    font-size: 0.85rem;
+}
+
+.new-customer a:hover {
+  text-decoration: underline;
+}
+
 .foot-panel-1 {
     background-color: rgb(55, 71, 90);
     color: white;
@@ -325,7 +382,7 @@ margin-right:5px;
 .foot-panel-2 {
     background-color: #232f3e;
     color: #dddddd;
-    height: 350px;
+    height: 300px;
     display:flex;
     justify-content: space-evenly;
 }
@@ -339,18 +396,23 @@ ul {
     margin-top: 10px;
 }
 
-.ul li {
+ul a {
     display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
 }
 
+ul a:hover {
+  text-decoration: underline;
+}
 
-.foot-panel-3 {
-    background-color: #232f3e;
-    color: white;
-    height: 50px;
+foot-panel-3 {
+    background-color:pink;
+    color: #dddddd;
+    border-top: 5px solid white;
+    height: 80px;
     display:flex;
-    justify-content: center;
-    align-items: center;
 }
+
 
 

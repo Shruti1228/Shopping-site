@@ -42,7 +42,7 @@ body {
     cursor: pointer; 
     display: flex;       
     align-items: center; 
-    padding: 2px 5px;
+    padding: 6px 5px;
     margin: 1px;
 }
 
@@ -57,6 +57,14 @@ body {
 }
       
 /* box2, location */
+.nav-address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    cursor: pointer;;
+}
+
 
 .add-first {
 color: #cccccc;
@@ -65,7 +73,7 @@ font-size: 0.8rem;
 
 .add-sec {
 font-size: 0.9rem;
-color: white;
+font-weight: bold;
 }
 
 .add-item {
@@ -133,13 +141,29 @@ color: white;
 }
 
 /* design for box 4 & 5 */
+.nav-signin {
+display:flex;
+flex-direction: column;
+justify-content: center;
+color: white;
+cursor: pointer;
+}
+
+.nav-return {
+display:flex;
+flex-direction: column;
+justify-content: center;
+color: white;
+cursor: pointer;
+}
+
 .span {
     font-size: 0.7rem;
 }
 
 .fontsiz {
     font-size: 0.70rem;
-    font-weight: 700
+    font-weight: bold;
 }
 
 /* design for box 6 */
@@ -160,7 +184,7 @@ color: white;
     background-color: #232f3e;
     display:flex;
     color: white;
-    /* align-items: center; */
+    align-items: center;
     padding-left: 10px;
 }
 
@@ -209,7 +233,7 @@ color: white;
   height: 500px; 
   position: relative;
   margin: auto;
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .slideshow-strips {

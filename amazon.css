@@ -407,9 +407,8 @@ margin-right: 5px;
     gap: 20px;
     width: 100%;
     box-sizing: border-box;
+  
 }
-
-/* Individual White Box */
 
 .multi-add {
     width: 97%;
@@ -447,6 +446,7 @@ margin-right: 5px;
 .multi-add-item {
     aspect-ratio: 1 / 1; /* Keeps images perfectly square */
     background-color: #f3f3f3; 
+    margin-bottom: 5px;
     background-size: cover;
     background-position: center;
     cursor: pointer;
@@ -455,7 +455,6 @@ margin-right: 5px;
 .pics-nd-text p {
     font-size: 12px;
     font-weight: bold;
-    margin-top: 10px;
     font-family: Arial, sans-serif;
     color: #0F1111;
 }
